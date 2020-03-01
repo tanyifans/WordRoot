@@ -1,0 +1,116 @@
+﻿<!-- About Section -->
+
+{% extends 'base.html' %} 
+{% block content %}
+<script>
+
+function checkspell()
+{
+if (document.getElementById('myword').value=="{{answers}}" || document.getElementById('myword').value=="{{word}}"  ){
+	
+	location.reload();
+}
+else{
+	alert('{{answers}}');
+}
+}
+function clearspell()
+{
+document.getElementById('myword').value=''
+
+}
+</script>
+
+<section class="success" id="about">
+	<div class="container">
+		<p align="right">Fight! You have learned  {{ wordlearned }}/50 today!</p>
+		
+		<p align="right">{{ wordcounts }} browsed</p>
+			
+		
+		{% for root in component %}
+			<div>
+				
+				<p>{{ root }}</p>
+			
+			</div>
+		{% endfor %}
+		
+		<input type="email" class="form-control" placeholder="Click root below orderly or type the entire word" id="myword">
+		
+		<center class="row">
+		
+		<div style="margin:0 auto;width:100px" onclick="checkspell()" id="check" class="btn btn-lg btn-outline">Check</div>
+		<div style="margin:0 auto;width:100px" onclick="clearspell()" id="clear" class="btn btn-lg btn-outline">Clear</div>
+		<a href="/img/tutorial.png" style="color:white;margin:0 auto;width:100px"  id="Tutor" class="btn btn-lg btn-outline">Tutorial</a>
+		
+		</center>
+		<hr class="star-light">
+		
+      
+		
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<p>Possible Roots</p>
+				
+				
+			</div>
+		</div>
+		<div class="row">
+		{% for root in roots %}
+			<div class="col-xs-4">
+			
+				
+				<button id="{{ root }}" style="margin:0 auto;width:100px" class="btn btn-lg btn-outline" onclick="document.getElementById('myword').value+='{{ root }}'">{{ root }}</button>
+			
+			</div>
+		{% endfor %}
+		</div>
+	
+		<div class="row">
+		
+		
+		</div>
+	
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<p>explanation</p>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-2">
+			{% for hint in hints %}
+				<p>{{hint}}</p>
+			{% endfor %}
+			</div>
+		</div>
+		
+
+	</div>
+</section>
+<hr class="star-primary">
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>answer</h2>
+				<p>{{ word }}</p>
+				<p>{{answer}}</p>
+				
+			</div>
+			
+			
+		</div>
+		
+	</div>
+</section>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+
+<!-- Portfolio Modals -->
+
+<!-- jQuery -->
+{% endblock %}
+

@@ -1,0 +1,63 @@
+﻿<!-- About Section -->
+
+{% extends 'base.html' %} 
+{% block content %}
+<script>
+    function requestbonus(index){
+        var login = false;
+		$.ajax({
+            url: '/bonus',
+            data: "index=" + index,
+            type: 'POST',
+            contentType: 'application/x-www-form-urlencoded',
+            async: false,
+            success: function (d) {
+                var status = d.status;
+                if (status != undefined && status != '') {
+                    if (status == "0") {
+                        alert("You have not finished the task or bonus has been claimed.");
+                        $("#bonus"+index).attr("disabled", true); 
+                    } else {
+						alert("Successfully claimed.")
+						$("#bonus"+index).attr("disabled", true); 
+                    }
+                } else {
+                    
+                    login = false;
+                }
+            }
+        });
+        return login;
+    }
+
+</script>
+<section class="success" id="about">
+	<div class="container">
+		<h2> Your daily quests<h2>
+		<p align="right">you have learned {{ wordlearned }} today!</p>
+		<p align="right">your have {{ wordcollect }} word collected!</p>
+		
+		<table class="table">
+			<thead>
+			<tr>
+				<th>Index</th>
+				<th>Content</th>
+				<th>Claim</th>
+				
+			</tr>
+			</thead>
+			<tbody>
+			{% for index,quest in quests.items() %}
+				<tr>
+					<td style="color:white">{{index}}</td>
+					<td style="color:white">{{quest}} </td>
+					<td><button style="margin:0 auto;width:100px" onclick="requestbonus({{index}})" id="bonus{{index}}" class="btn btn-lg btn-outline">Claim</button></td>
+				</tr>
+			{% endfor %}
+			</tbody>
+		</table>
+
+	</div>
+</section>
+{% endblock %}
+

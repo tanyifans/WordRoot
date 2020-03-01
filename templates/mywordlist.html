@@ -1,0 +1,29 @@
+﻿{% extends 'base.html' %} 
+{% block content %}
+<!-- About Section -->
+<section class="success" id="about">
+	<div class="container">
+		<hr class="star-light">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<p>word collections</p>
+				<p>{{length}}/929 collected</p>
+				
+				
+			</div>
+		</div>
+		<div class="row">
+		{% for word in words %}
+			<div class="col-xs-6 btn btn-lg btn-outline" >
+				<a style="color:white" href='../?wordindex={{word}}'   >{{ word }}</a>
+			</div>
+		{% endfor %}
+		</div>
+	
+
+		
+
+	</div>
+</section>
+
+{% endblock %}

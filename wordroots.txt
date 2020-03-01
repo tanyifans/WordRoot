@@ -1,0 +1,553 @@
+ag
+-ent n.
+n.
+-ency n.
+-ile a.
+a.
+-it-
+-ate v.
+v.
+act
+-ion n.
+-ive a.
+-u-
+-al a.
+ex-
+re-
+inter-
+trans-
+am
+-i-
+-able a.
+amat
+amic
+amicus
+-our n.
+en- v.
+-ory a.
+anim
+-al n.
+-ate a.
+magn
+-ity n.
+equ
+long
+longus
+un
+-ous a.
+ann
+vers
+-ary n.
+pl.
+per-
+enn
+super-
+bi-
+annu
+enni
+anthropo
+-logy n.
+phil
+anthrop
+-ist n.
+mis
+-graphy n.
+genesis
+tomy
+an-
+a-
+arch
+-y n.
+mon-
+olig-
+poly-
+matri
+-ive n.
+arch-
+aud
+-ence n.
+audit
+-orium n.
+-ible a.
+audi
+-o a.
+-o-
+aug
+-ust a.
+-ment v.
+auct
+auth
+-or n.
+aux
+-ary a.
+auctor
+-ize v.
+bio
+-cide n.
+anti-
+bi
+-otic a.
+micro-
+sym-
+syn
+-
+-osis n.
+bio-
+cas
+oc-
+ob-
+ac-
+ad-
+cid
+in-
+co-
+com-
+de-
+cap
+-ac-
+capt
+-ure n.
+ceive
+con-
+cept
+prep
+pre-
+sus-
+sub-
+ible
+prin
+cip
+part
+e-
+man
+ante-
+ced
+-ent a.
+cess
+pro-
+ceed
+suc-
+se-
+centr
+ec-
+-ic a.
+fug
+pet
+cern
+dis-
+cret
+creet
+cis
+hom
+cide n.
+sui
+bacteri
+claim
+clamat
+clam
+clin
+-ic n.
+clim
+-ax n.
+-ate n.
+-at-
+clud
+clus
+cord
+-form n.
+corp
+corpor
+corpus
+ul
+-e-
+credit
+cred
+-ul-
+credo
+credere
+cresc
+creas
+cre
+-ment n.
+cumb
+cub
+-ine n.
+-us n.
+-icle n.
+en-
+-er v.
+col
+on
+cult
+api
+apis
+culture
+aqua
+flori
+floris
+pisci
+piscis
+cur
+curr
+curs
+cours
+or
+cycl
+pedia
+Encyclopedia Britannica
+-one n.
+hemi
+tetra
+demo
+-cracy n.
+-crat n.
+demos
+dem
+agogue
+epi-
+pan-
+dic
+dictat
+dict
+contra-
+-um n.
+bene
+male
+doct
+doc
+duct
+duc
+intro-
+ab-
+val
+libr
+libra
+-ium n.
+voc
+fac
+-ty n.
+fact
+-ory n.
+bene-
+ef-
+fect
+fer
+dif-
+of-
+suf-
+auri
+aurum
+-ferous a.
+fructi
+fructus
+lumini
+lumen
+somni
+somnus
+fid
+af-
+avit
+figur
+fig
+fict
+fin
+-ance n.
+-ite a.
+flu
+-id a.
+influenz
+-a n.
+form
+-ula n.
+de- v.
+fort
+forc
+-fy v.
+-tude n.
+inforce
+frag
+fract
+ambi-
+fus
+found
+gen
+ine a.
+gener
+-etic a.
+-esis n.
+eu-
+bell
+ger
+di-
+gest
+Reader's Digest
+sug-
+-ation n.
+dia-
+gnos
+e
+gnit
+gniz
+-tic a.
+is
+grad
+ag-
+gress
+gramm
+-ar n.
+gram
+tele-
+phon
+graph
+-ite n.
+phot
+auto
+grat
+-ful a.
+-ate v
+gratis
+ad.
+grac
+hab
+-it n.
+habit
+hibit
+amb-
+it
+circu
+sed-
+jac
+ject
+junct
+join
+jur
+juris
+just
+-ice n.
+lat
+col-
+il-
+lect
+neg-
+intel-
+leg
+-ant a.
+lig
+-acy n.
+legis
+legitim
+al-
+priv
+loc
+mot
+log
+apo-
+logue
+tauto
+socio
+tri
+Sister Carrie
+loqu
+locut
+ious a.
+circum-
+lud
+lus
+post-
+manu
+mann
+-er n.
+script
+facture
+pulate
+ply
+-acle n.
+quadru
+main
+tain
+ten
+mand
+Apollo 13
+mend
+counter-
+medi
+im-
+terr
+-an a.
+ev
+aev
+ocr
+ocris
+minor
+minus
+prep.
+mini
+-ster n.
+min
+-ute n.
+-ute a.
+-ish v.
+mit
+miss
+o-
+mod
+-el n.
+-ern a.
+-est a.
+-er a.
+-ule n.
+mount
+-ain n.
+sur
+par
+mont
+-cule n.
+mort
+gage
+mortem
+mov
+nat
+neo
+gnat
+gnant
+nasc
+naiss
+not
+nounc
+nunci
+ation n.
+ord
+ordin
+ain v.
+pair
+ap
+atus
+imper
+per
+ative a.
+-cular a.
+pati
+pass
+pat
+i
+patri
+-ot n.
+-mony n.
+patr
+-on n.
+line
+patern
+ped
+pedd
+-le v.
+-ite v.
+estr
+-ian a.
+cent
+pel
+puls
+pro
+pend
+ap-
+pens
+petit
+ple
+plet
+sup-
+plen
+multi-
+plic
+polic
+polit
+metro
+polis
+cosmo
+pos
+op-
+pon
+posit
+port
+prehend
+prehens
+pris
+sur-
+enter-
+press
+prob
+prov
+quer
+quest
+ion n.
+quir
+pre
+quisit
+reg
+-ar a.
+cor-
+rect
+angl
+angul
+rogat
+ar-
+rog
+ab
+rogue
+rupt
+bank
+ir-
+sci
+t
+omni-
+ne-
+scrib
+tran
+s
+sect
+viv
+sent
+sens
+non-
+as-
+-itive a.
+sequ
+secut
+ecut
+serv
+ant n.
+de
+serf
+ile a.
+itude n.
+sid
+sess
+potis
+able
+sign
+fic
+sist
+ist
+solv
+solut
+pect
+spect
+spec
+spic
+au
+avis
+spis
+spir
+pir
+st
+stat
+stay
+string
+strict
+strain
+stress
+stig
+di
+struct
+stru
+stroy
+indu-
+stry
